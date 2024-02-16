@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/J5s2e_vk)
 # Assignment week 2
-lik preview: https://hasnalatifa7.netlify.app/
+link preview: https://hasnalatifa7.netlify.app/
 
 # ReviewMe - Beranda
 
