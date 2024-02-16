@@ -1,5 +1,5 @@
 # Assignment week 2
-lik preview: https://hasnalatifa7.netlify.app/
+link preview: https://hasnalatifa7.netlify.app/
 
 # ReviewMe - Beranda
 
