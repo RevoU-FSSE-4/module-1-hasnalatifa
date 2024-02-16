@@ -1,0 +1,162 @@
+/* ReviewMe CSS */
+.logo {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 50px;
+    color: #E91E63; 
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #a04664; /* Pink color */
+}
+
+.hero {
+    background-color: #FAFAFA;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.latest-reviews {
+    padding: 50px 0;
+}
+
+.review-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.review-item {
+    width: calc(33.333% - 20px);
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid #c765b0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+.review-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.review-item h3, .review-item p {
+    color: #333;
+    margin: 10px 0;
+}
+
+.review-item a {
+    display: inline-block;
+    background-color: #E91E63;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.request-review {
+    background-color: #FAFAFA;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.request-review h2 {
+    margin-bottom: 20px;
+}
+
+.request-review form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.request-review input, .request-review button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.request-review button {
+    background-color: #E91E63;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.request-review input:focus, .request-review button:focus {
+    outline: none;
+    border-color: #E91E63;
+}
+
+footer {
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .review-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .review-item {
+        width: 100%;
+    }
+}
